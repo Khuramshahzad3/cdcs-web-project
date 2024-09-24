@@ -12,27 +12,27 @@ const Section3 = () => {
             {/* upper div */}
 
             <div className="p-2 flex flex-col items-center relative">
-              <h1 class="max-w-[850px] text-[#210F03] text-center text-xl font-Poppins xl:text-[70px] md:text-3xl font-semibold xs:text-2xl lg:leading-[81px] w-full self-center whitespace-nowrap">
+              <h1 class="max-w-[850px] text-[#210F03] text-center text-xl font-Poppins xl:text-[70px] md:text-3xl font-semibold xs:text-2xl xl:leading-[81px] w-full self-center whitespace-nowrap">
 
                 Welcome to <span className="text-[#03A651]">Our</span>  Services
               </h1>
-              <img src={Rectangle3} alt="" className='md:mt-20 mt-5' />
+              {/* <img src={Rectangle3} alt="" className='md:mt-20 mt-5' />
               <div className="max-w-[1110px] max-h-[240px] flex items-center justify-center flex-col  px-5 h-[180px]  rounded-[16px] bg-[#F9FDFF] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.12)] xs:top-[12rem] absolute top-40 sm:top-[18rem] md:top-[50.417vw] w-[83.333vw] lg:h-[240px] xl:top-[575.796px]">
                 <p className="max-w-[1095px] max-h-[149.14px]  text-[#210F03] text-center font-Poppins xl:text-[30px] lg:text-2xl font-light  xl:leading-[45px] text-sm xs:text-base">
                   <span className="text-[#03A651] font-bold">Our Services</span>, We offer expert financial solutions, including receivables collection, bad debt recovery, and IT services. Trust us for effective management of non-performing loans and diverse loan types
                 </p>
-              </div>
+              </div> */}
 
 
             </div>
           </div>
         </div>
         {/* lower div */}
-        <div className="max-w-[1440px] mx-auto  lg:px-6  xl:px-12 max-md:p-2  md:p-5 ">
+        <div className="max-w-[1440px] mx-auto  lg:px-6  xl:px-12 max-md:p-2   ">
           <div className=" ">
-            <div className="p-2 mt-40 md:mt-32 flex flex-col md:flex-row md:gap-20 md:items-start items-center    md:mb-20 xl:gap-28">
+            <div className="p-2 flex flex-col md:flex-row md:gap-20 md:items-start items-center  md:mb-20 xl:gap-28">
               {/* images */}
-              <div className="flex mt-20 flex-row md:flex-col relative  max-md:gap-3 md:mt-12 lg:mt-32 xl:mt-40 gap-[51px] lg:ml-5">
+              <div className="flex  flex-row md:flex-col relative  max-md:gap-3 md:mt-12  gap-[51px] lg:ml-5">
                 <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%] md:h-[100%] ">
                   <img src={Service1} alt="" className=' shadow-2xl rounded-3xl' />
                 </div>
@@ -44,11 +44,10 @@ const Section3 = () => {
                 <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%]  md:w-[100%]">
 
                   <img src={Service3} alt="" className='  md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
-
                 </div>
               </div>
 
-              <div className="mt-10 md:mt-0 lg:mt-10 xl:mt-20 flex flex-col items-center md:items-start gap-3">
+              <div className="mt-10 md:mt-0  flex flex-col items-center md:items-start gap-3">
                 <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start">
                   WELCOME TO OUR SITE!
                 </h1>

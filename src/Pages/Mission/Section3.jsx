@@ -7,33 +7,14 @@ import Rectangleuper from '../../assets/Images/man-woman-are-looking-tablet-with
 const Section3 = () => {
   return (
     <section>
-      <div className="bg-Artboard   lg:h-[1904px]">
-        <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-24 p-2  md:p-10 md:py-10">
-          <div className=" ">
-            {/* upper div */}
-
-            <div className="p-2 flex flex-col items-center relative">
-              <h1 class="max-w-[850px] text-[#210F03] text-center text-xl font-Poppins xl:text-[70px] md:text-3xl font-semibold xs:text-2xl lg:leading-[81px] w-full self-center">
-
-                Welcome to <span className="text-[#03A651]">Mission Statement</span>  Services
-              </h1>
-              <img src={Rectangle2} alt="" className='md:mt-20 mt-5' />
-              <div class="max-w-[1110px] max-h-[240px] flex items-center justify-center flex-col  px-5 h-[180px]  rounded-[16px] bg-[#F9FDFF] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.12)] xs:top-[14rem] absolute top-48 sm:top-[18rem] md:top-[50.417vw] w-[83.333vw] lg:h-[240px] xl:top-[700.796px]">
-                <p class="max-w-[1095px] max-h-[149.14px]  text-[#210F03] text-center font-Poppins xl:text-[30px] lg:text-2xl font-light  xl:leading-[45px] text-sm xs:text-base">
-                  The <span class="text-[#03A651] font-bold">Corporate Debt Collection Services</span>,  is committed to serve the cash management needs of businesses. Quality and Value are instilled in each transaction and within each established relationship.
-                </p>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
+      <div className="bg-Artboard md:h-[550px] lg:h-[700px]  xl:h-[800px]">
+       
         {/* lower div */}
         <div className="max-w-[1440px] mx-auto  lg:px-6  xl:px-12 max-md:p-2  md:p-5 ">
           <div className=" ">
-            <div className="p-2 mt-44 md:mt-32 flex flex-col md:flex-row md:gap-20 md:items-start items-center  lg:gap-32 xl:gap-40">
+            <div className="p-2 mt-5  flex flex-col md:flex-row md:gap-20 md:items-start items-center  lg:gap-32 xl:gap-40 mb-10 ">
               {/* images */}
-              <div className="flex flex-row md:flex-col relative  max-md:gap-3 md:mt-20 lg:mt-32 xl:mt-40">
+              <div className="flex flex-row md:flex-col relative  max-md:gap-3 my-10 xl:mt-20">
                 <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%] md:h-[100%] ">
                   <img src={Rectangleuper} alt="" className=' shadow-2xl rounded-3xl' />
                 </div>

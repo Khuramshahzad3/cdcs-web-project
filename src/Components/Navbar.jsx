@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className="mx-auto p-5 max-md:xs:p-10 md:p-5 md:px-8 lg:px-10 flex items-center justify-between max-lg:gap-[65vw] w-full max-w-screen fixed z-10  xl:px-24">
+      <div className="mx-auto p-5 max-md:xs:p-10 md:p-5 md:px-8 lg:px-10 flex items-center justify-between max-lg:gap-[65vw] w-full max-w-screen fixed z-50  xl:px-24">
         <h1
           className="font-Anton text-xl text-[#03A651] md:text-4xl max-md:xs:ml-[-12px] cursor-pointer"
           onClick={toggle}
@@ -32,7 +32,7 @@ const Navbar = () => {
           <FontAwesomeIcon icon={open ? faXmark : faBars} />
         </div>
         {/* Desktop Navbar */}
-        <div className="3xl:ml-[42rem] ">
+        <div className="">
           <div className="lg:flex lg:flex-row lg:items-center md:w-[470px] lg:w-[810px] h-[76px] bg-[rgba(206,249,254,0.21)] rounded-[39px] gap-10 p-5 hidden lg:gap-10 lg:px-10">
             <ul className="flex flex-row text-white items-center gap-5 lg:gap-10 font-semibold">
               <li>

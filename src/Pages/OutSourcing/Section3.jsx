@@ -18,12 +18,12 @@ const Section3 = () => {
 
                 Welcome to <span className="text-[#03A651]">Our</span>  Outsourcing
               </h1>
-              <img src={Rectangle4} alt="" className='md:mt-20 mt-5' />
+              {/* <img src={Rectangle4} alt="" className='md:mt-20 mt-5' />
               <div className="max-w-[1110px] max-h-[240px] flex items-center justify-center flex-col  px-5 h-[180px]  rounded-[16px] bg-[#F9FDFF] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.12)] xs:top-[12rem] absolute top-40 sm:top-[18rem] md:top-[50.417vw] w-[83.333vw] lg:h-[240px] xl:top-[575.796px]">
                 <p className="max-w-[1095px] max-h-[149.14px]  text-[#210F03] text-center font-Poppins xl:text-[30px] lg:text-2xl font-light  xl:leading-[45px] text-sm xs:text-base">
                   <span className="text-[#03A651] font-bold">Our Services</span>, We offer expert financial solutions, including receivables collection, bad debt recovery, and IT services. Trust us for effective management of non-performing loans and diverse loan types
                 </p>
-              </div>
+              </div> */}
 
 
             </div>
@@ -32,9 +32,9 @@ const Section3 = () => {
         {/* lower div */}
         <div className="max-w-[1440px] mx-auto  lg:px-6  xl:px-12 max-md:p-2  md:p-5 ">
           <div className=" ">
-            <div className="p-2 mt-40 md:mt-32 flex flex-col md:flex-row md:gap-20 md:items-start items-center  justify-center  md:mb-20 xl:gap-28">
+            <div className="p-2  flex flex-col md:flex-row md:gap-20 md:items-start items-center  justify-center  md:mb-20 xl:gap-28">
               {/* images */}
-              <div className="grid grid-cols-2 md:grid-cols-1 max-lg:md:w-[279.5px] max-xl:lg:w-[347.672px] flex-col items-center justify-center mt-20  md:flex-col relative  max-md:gap-3 md:mt-32  lg:mt-52 xl:mt-60  gap-[51px] lg:ml-5 xl:gap-[60px] lg:gap-[50px] md:gap-10">
+              <div className="grid grid-cols-2 md:grid-cols-1 max-lg:md:w-[279.5px] max-xl:lg:w-[347.672px] flex-col items-center justify-center   md:flex-col relative  max-md:gap-3  md:mt-16 lg:mt-20 gap-[51px] xl:mt-28 lg:ml-5 xl:gap-[60px] lg:gap-[50px] md:gap-10">
                 <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]   md:w-[100%] md:h-[100%] ">
                   <img src={St1} alt="" className=' shadow-2xl rounded-3xl' />
                 </div>
@@ -69,7 +69,7 @@ const Section3 = () => {
                 </div>
               </div>
 
-              <div className="mt-10 md:mt-0 lg:mt-10 xl:mt-20 flex flex-col items-center md:items-start gap-3  max-md:mb-10">
+              <div className="mt-10 md:mt-0  flex flex-col items-center md:items-start gap-3  max-md:mb-10">
                 <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start">
                   WELCOME TO OUR SITE!
                 </h1>

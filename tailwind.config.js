@@ -18,6 +18,7 @@ export default {
       },
       screens: {
         xs: "360px",
+        xsb: "430px",
         "3xl": "1920px"
       },
       dropShadow: {

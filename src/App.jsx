@@ -12,6 +12,7 @@ import StrategyPage from "./Pages/Strategy/StrategyPage";
 import OutsourcingPage from "./Pages/OutSourcing/OutsourcingPage";
 import AboutPage from "./Pages/About/AboutPage";
 import ContactPage from "./Pages/Contact/ContactPage";
+import BreadCrumbs from "./Components/BreadCrumbs";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +20,9 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      
       <Routes>
+        
         <Route path="/" element={<HomePage />} />
         {/* Add more routes here */}
         <Route path="/mission" element={<MissionPage />} />
