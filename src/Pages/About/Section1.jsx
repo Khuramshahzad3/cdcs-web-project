@@ -13,7 +13,7 @@ const Section1 = () => {
         <div className="max-w-[1440px] mx-auto lg:px-10 xl:px-24">
           {/* both */}
           <div className="mt-[28vw] xs:mt-[16vw] md:mt-[8vw] flex flex-col lg:mt-[2vw] xl:mt-[0vw] sm:mt-[13vw]
-             sm:flex-row  gap-5 lg:gap-60   items-center sm:items-start xl:gap-[30rem]   max-lg:px-5 ">
+             sm:flex-row  gap-5 lg:gap-60   items-center sm:items-start xl:gap-[20rem]   max-lg:px-5 ">
             <div className="text-white px-2   flex flex-col  max-w-[734px] xs:mt-[8vw] sm:mt-[15vw] md:mt-[15vw]  xl:mt-[166.4px]">
               <BreadCrumbs/>
               <h1 className=" font-Poppins text-lg capitalize  md:leading-[138%]  md:text-3xl md:pr-20 lg:text-3xl xl:text-5xl  font-semibold xs:whitespace-nowrap">About

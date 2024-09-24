@@ -13,7 +13,9 @@ import OutsourcingPage from "./Pages/OutSourcing/OutsourcingPage";
 import AboutPage from "./Pages/About/AboutPage";
 import ContactPage from "./Pages/Contact/ContactPage";
 import BreadCrumbs from "./Components/BreadCrumbs";
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 function App() {
   const [count, setCount] = useState(0);
 

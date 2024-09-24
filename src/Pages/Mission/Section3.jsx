@@ -3,7 +3,7 @@ import Rectangle2 from '../../assets/Images/Rectangle2.png'
 import Rectangledown from '../../assets/Images/woman-business-advisor-tech-companys-office-helping-client-with-financial-planning1.png'
 import Rectanglebg from '../../assets/Images/Rectanglebg.png'
 import Rectangleuper from '../../assets/Images/man-woman-are-looking-tablet-with-green-tag-that-says-f1.png'
-
+import 'aos/dist/aos.css'; 
 const Section3 = () => {
   return (
     <section>
@@ -14,18 +14,18 @@ const Section3 = () => {
           <div className=" ">
             <div className="p-2 mt-5  flex flex-col md:flex-row md:gap-20 md:items-start items-center  lg:gap-32 xl:gap-40 mb-10 ">
               {/* images */}
-              <div className="flex flex-row md:flex-col relative  max-md:gap-3 my-10 xl:mt-20">
+              <div className="flex flex-row md:flex-col relative  max-md:gap-3 my-10 xl:mt-20" data-aos="fade-right">
                 <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%] md:h-[100%] ">
                   <img src={Rectangleuper} alt="" className=' shadow-2xl rounded-3xl' />
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[90%] lg:w-[100%]">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[90%] lg:w-[100%]" >
 
                   <img src={Rectangledown} alt="" className='opacity-80 md:absolute md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl   md:w-[90%] lg:w-[100%] rounded-3xl' />
 
                 </div>
               </div>
 
-              <div className="mt-10 md:mt-0 lg:mt-10 xl:mt-20 flex flex-col items-center md:items-start gap-3">
+              <div className="mt-10 md:mt-0 lg:mt-10 xl:mt-20 flex flex-col items-center md:items-start gap-3" data-aos="fade-left">
                 <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start">
                   WELCOME TO OUR SITE!
                 </h1>
