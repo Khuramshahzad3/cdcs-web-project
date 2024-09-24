@@ -8,7 +8,7 @@ import St5 from '../../assets/Images/St5.png'
 const Section3 = () => {
   return (
     <section>
-      <div className="bg-Artboardlarge   ">
+      <div className="bg-Artboardlarge  overflow-x-hidden ">
         <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-24 p-2  md:p-10 md:py-10">
          
         </div>

@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Rectangle2 from '../../assets/Images/Rectangle2.png'
 import Rectangledown from '../../assets/Images/woman-business-advisor-tech-companys-office-helping-client-with-financial-planning1.png'
 import Rectanglebg from '../../assets/Images/Rectanglebg.png'
 import Rectangleuper from '../../assets/Images/man-woman-are-looking-tablet-with-green-tag-that-says-f1.png'
 import 'aos/dist/aos.css'; 
+import AOS from 'aos';
 const Section3 = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      offset: 200, // Global offset for all animations (200px)
+    });
+  }, []);
   return (
     <section>
-      <div className="bg-Artboard md:h-[550px] lg:h-[700px]  xl:h-[800px]">
+      <div className="bg-Artboard md:h-[550px] lg:h-[700px]  xl:h-[800px] overflow-x-hidden">
        
         {/* lower div */}
         <div className="max-w-[1440px] mx-auto  lg:px-6  xl:px-12 max-md:p-2  md:p-5 ">
