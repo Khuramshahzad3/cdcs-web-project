@@ -16,17 +16,18 @@ import BreadCrumbs from "./Components/BreadCrumbs";
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import SideBarNav from "./Components/SideBarNav";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <BrowserRouter>
       <Navbar />
-      
+     
       <Routes>
         
         <Route path="/" element={<HomePage />} />
-        {/* Add more routes here */}
+   
         <Route path="/mission" element={<MissionPage />} />
         <Route path="/services" element={<ServicePage />} />
         <Route path="/our-strategy" element={<StrategyPage />} />

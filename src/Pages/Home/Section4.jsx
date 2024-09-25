@@ -3,11 +3,9 @@ import Programming from '../../assets/Images/Programming.png'
 import Hand from '../../assets/Images/Hand.png'
 
 const Section4 = () => {
-  const greenBoxShadow = {
-    boxShadow: '0 4px 6px -1px rgba(34, 197, 94, 0.1), 0 2px 4px -1px rgba(34, 197, 94, 0.06)',
-  };
+ 
   return (
-    <section className='bg-[#171717]'>
+    <section className='bg-[#171717] overflow-x-hidden'>
       <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-24 p-2  md:p-10 md:py-10">
         <div className="flex flex-col py-10 gap-5 lg:gap-16 lg:flex-row relative">
           {/* left */}

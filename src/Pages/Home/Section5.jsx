@@ -65,7 +65,7 @@ const Section5 = () => {
     },
   ];
   return (
-    <section className='bg-Artboard'>
+    <section className='bg-Artboard overflow-x-hidden'>
       <div className="max-w-[1440px] mx-auto">
         <div className="py-16 max-w-[1440px] mx-auto  lg:px-10  xl:px-24 p-2  md:p-10 md:py-10">
           <div className="text-center mb-12 flex flex-col gap-5 items-center xl:gap-10">
