@@ -12,9 +12,9 @@ const Section3 = () => {
             {/* upper div */}
 
             <div className="p-2 flex flex-col items-center relative">
-              <h1 class="max-w-[850px] text-[#210F03] text-center text-xl font-Poppins xl:text-[70px] md:text-3xl font-semibold xs:text-2xl lg:leading-[81px] w-full self-center whitespace-nowrap">
+              <h1 className="max-w-[850px] text-[#210F03] text-center text-xl font-Poppins xl:text-[70px] md:text-3xl font-semibold xs:text-2xl lg:leading-[81px] w-full self-center whitespace-nowrap">
 
-                Contact <span className="text-[#03A651]">Us</span>  
+                Contact <span className="text-[#03A651]">Us</span>
               </h1>
               <img src={Rectangle3} alt="" className='md:mt-20 mt-5' />
               <div className="max-w-[1110px] max-h-[240px] flex items-center justify-center flex-col  px-5 h-[180px]  rounded-[16px] bg-[#F9FDFF] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.12)] xs:top-[12rem] absolute top-40 sm:top-[18rem] md:top-[50.417vw] w-[83.333vw] lg:h-[240px] xl:top-[575.796px]">

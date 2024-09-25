@@ -12,23 +12,23 @@ const Section4 = () => {
         <div className="flex flex-col py-10 gap-5 lg:gap-16 lg:flex-row relative">
           {/* left */}
           <div className="flex flex-col gap-5 items-center justify-center self-center md:items-start md:gap-10 mt-20">
-            <h1 className="text-white font-poppins  xl:text-[70px] lg:text-4xl text-lg font-semibold xl:leading-[90px] capitalize max-w-[770px] text-center md:text-start md:text-2xl">
+            <h1 className="text-white font-poppins  xl:text-[70px] lg:text-4xl text-lg font-semibold xl:leading-[90px] capitalize max-w-[770px] text-center md:text-start md:text-2xl" data-aos="fade-up">
               Key Service Features
               <span className="text-[#03A651] font-poppins  font-semibold   capitalize">  Protecting </span>
               You
             </h1>
-            <p className="flex  text-white font-poppins lg:text-2xl font-normal lg:leading-[35px] tracking-normal text-center md:text-start md:text-lg max-w-[638px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis accumsan euismod. Maecenas sed est mollis, convallis nisi convallis, imperdiet massa.
+            <p className="flex  text-white font-poppins lg:text-2xl font-normal lg:leading-[35px] tracking-normal text-center md:text-start md:text-lg max-w-[638px]" data-aos="fade-up">
+              Collection of commercial Receivables (A/R), Bad Debts, Debts recovery of commercial entities including banks and DFIs.
             </p>
 
-            <button className="max-w-[174.545px] w-[150px] h-[60px] xl:w-[174.545px] rounded-[16.364px] bg-gradient-to-l from-[#03A651] to-[#144F30] text-white font-semibold xl:text-3xl">
+            <button className="max-w-[174.545px] w-[150px] h-[60px] xl:w-[174.545px] rounded-[16.364px] bg-gradient-to-l from-[#03A651] to-[#144F30] text-white font-semibold xl:text-3xl" data-aos="fade-up">
               APPLY
             </button>
 
             <div className="flex flex-col gap-20 md:flex-row md:gap-5 mt-20 lg:gap-9">
               <div
                 className="w-[250px] max-lg:xs:w-[300px] h-[242px] max-w-[338px] xl:w-[28.281vw] lg:w-[26.367vw] rounded-[16px] border-[3px] border-[#03A651] bg-white flex flex-col items-center justify-center relative
-                             xs:px-4"
+                             xs:px-4" data-aos="fade-up"
               >
                 <div className="w-[80px] h-[80px]  rounded-full  bg-[#03A651]  [background-position:299deg] flex items-center justify-center absolute top-[-50px]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58" fill="none">
@@ -43,16 +43,16 @@ const Section4 = () => {
                   </svg>
                 </div>
 
-                <p class="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
+                <p className="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
                   Detection and Prevention
                 </p>
-                <p class="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
+                  Efficient Debt Recovery, Seamless Solutions
                 </p>
               </div>
               <div
                 className="w-[250px] max-lg:xs:w-[300px] h-[242px] lg:w-[26.367vw] max-w-[338px] xl:w-[28.281vw] rounded-[16px] border-[3px]  bg-white flex flex-col items-center justify-center relative
-                             xs:px-4"
+                             xs:px-4" data-aos="fade-up"
               >
                 <div className="w-[80px] h-[80px]  rounded-full bg-[#03A651] [background-position:299deg] flex items-center justify-center absolute top-[-50px]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82" fill="none">
@@ -61,19 +61,19 @@ const Section4 = () => {
                   </svg>
                 </div>
 
-                <p class="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
+                <p className="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
                   No Recovery -- No Fee
                 </p>
-                <p class="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
+                  Maximizing Recovery, Minimizing Hassle
                 </p>
               </div>
             </div>
           </div>
           {/* right */}
-          <div className="flex gap-2 p-1 pr-4  md:gap-4 justify-center lg:flex-col lg:mt-32 lg:relative  lg:top-[-200px] xl:top-[-220px] lg:left-8 xl:left-14 lg:justify-center lg:items-center" >
-            <img src={Programming}  alt="" className='w-[50%] lg:w-[100%] md:w-[30%] rounded-3xl  lg:rounded-[2rem] shadow-[rgba(3,166,81,0.70)] shadow-2xl'/>
-            <img src={Hand} alt="" className='w-[50%] lg:w-[95%]  md:w-[30%] rounded-3xl lg:rounded-[2rem] lg:absolute right-20  lg:top-[22rem] xl:top-[26rem] shadow-[rgba(3,166,81,0.70)] shadow-2xl'/>
+          <div className="flex gap-2 p-1 pr-4  md:gap-4 justify-center lg:flex-col lg:mt-32 lg:relative  lg:top-[-200px] xl:top-[-220px] lg:left-8 xl:left-14 lg:justify-center lg:items-center" data-aos="fade-up">
+            <img src={Programming} alt="" className='w-[50%] lg:w-[100%] md:w-[30%] rounded-3xl  lg:rounded-[2rem] shadow-[rgba(3,166,81,0.70)] shadow-2xl' />
+            <img src={Hand} alt="" className='w-[50%] lg:w-[95%]  md:w-[30%] rounded-3xl lg:rounded-[2rem] lg:absolute right-20  lg:top-[22rem] xl:top-[26rem] shadow-[rgba(3,166,81,0.70)] shadow-2xl' />
           </div>
 
 

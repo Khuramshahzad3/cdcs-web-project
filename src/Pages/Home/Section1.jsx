@@ -14,7 +14,8 @@ const Section1 = () => {
               <h1 className=" font-Poppins text-2xl capitalize leading-10 md:leading-[138%] lg:leading-[60px] md:text-3xl md:pr-20 lg:text-5xl xl:text-7xl xl:leading-[95px] font-semibold">Welcome
                 <span className="text-[#03A651]"> to</span> coporate
                 dept <span className="text-[#03A651]">collection</span></h1>
-              <p className="md:pr-20 lg:text-xl xl:text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis accumsan euismod. Maecenas sed est </p>
+              <p className="md:pr-20 lg:text-xl xl:text-2xl">Recover What's Yours with CDCS – No Recovery, No Fee!.
+              Your Trusted Partner in Debt Collection Solutions </p>
               <button className="flex w-[142px] xl:w-[242px] xl:text-2xl p-[24px] justify-center items-center gap-[8px] rounded-[8px] font-semibold bg-gradient-to-r from-[#03A651] to-[#0F3E25] shadow-[0px_4px_7px_0px_#0C0C0C]">
                 Contact us
               </button>

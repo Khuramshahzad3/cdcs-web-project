@@ -12,7 +12,7 @@ const Section3 = () => {
             {/* upper div */}
 
             {/* <div className="p-2 flex flex-col items-center relative">
-              <h1 class="max-w-[850px] text-[#210F03] text-center text-xl font-Poppins xl:text-[70px] md:text-3xl font-semibold xs:text-2xl xl:leading-[81px] w-full self-center whitespace-nowrap">
+              <h1 className="max-w-[850px] text-[#210F03] text-center text-xl font-Poppins xl:text-[70px] md:text-3xl font-semibold xs:text-2xl xl:leading-[81px] w-full self-center whitespace-nowrap">
 
                 Welcome to <span className="text-[#03A651]">Our</span>  Services
               </h1>
@@ -33,7 +33,7 @@ const Section3 = () => {
             <div className="p-2 flex flex-col md:flex-row md:gap-20 md:items-start items-center  md:mb-20 xl:gap-28">
               {/* images */}
               <div className="flex  flex-row md:flex-col relative  max-md:gap-3 md:mt-12  gap-[51px] lg:ml-5" data-aos="fade-right">
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%] md:h-[100%] "data-aos="fade-right">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%] md:h-[100%] " data-aos="fade-right">
                   <img src={Service1} alt="" className=' shadow-2xl rounded-3xl' />
                 </div>
                 <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%]" data-aos="fade-right" data-aos-delay="500">
@@ -48,7 +48,7 @@ const Section3 = () => {
               </div>
 
               <div className="mt-10 md:mt-0  flex flex-col items-center md:items-start gap-3" >
-                <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start"data-aos="fade-left">
+                <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start" data-aos="fade-left">
                   WELCOME TO OUR SITE!
                 </h1>
                 <p className="max-w-[497px] text-[#333] font-Poppins text-lg lg:text-[32px] text-center font-semibold leading-normal md:text-start" data-aos="fade-left">
@@ -56,7 +56,7 @@ const Section3 = () => {
 
 
                 </p>
-             
+
                 <ul className="max-w-[665px] max-h-[444px]  text-[#210F03] font-Poppins lg:text-[18px] font-light lg:leading-[30px] xl:leading-[37px]   md:text-start list-disc flex flex-col gap-3  xl:gap-7 max-md:ml-7 text-sm max-md:mb-80 " data-aos="fade-left">
 
 

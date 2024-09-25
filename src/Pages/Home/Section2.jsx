@@ -1,30 +1,28 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 const Section2 = () => {
- 
+
   return (
     <section>
-      <div className="bg-black h-[1300px] md:h-[880px] lg:h-[780px]">
+      <div className="bg-black h-[1300px] md:h-[880px] lg:h-[780px] overflow-x-hidden">
         <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-12 ">
           <div className="flex flex-col items-center gap-10 lg:gap-20 md:gap-16 absolute px-5 top-[49rem] xs:top-[55rem] md:top-[36rem] lg:top-[46rem] ">
             <div className="max-w-[923px]">
-              <h1 class="text-white text-center text-xl font-poppins lg:text-[75px] font-semibold lg:leading-[91px] md:text-3xl  capitalize md:px-40 lg:px-0" data-aos="fade-up">
+              <h1 className="text-white text-center text-xl font-poppins lg:text-[75px] font-semibold lg:leading-[91px] md:text-3xl  capitalize md:px-40 lg:px-0" data-aos="fade-up">
                 Protecting Your Digital Assets
-                <span class="text-[#03A651]"> Expertly</span>
+                <span className="text-[#03A651]"> Expertly</span>
               </h1>
             </div>
             <div className="max-w-[849px]">
-              <p class=" text-white text-center font-poppins lg:text-[24px] font-normal lg:leading-[35px] capitalize md:px-20">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum congue metus quis accumsan euismod. Maecenas sed est
-                mollis, convallis nisi convallis, imperdiet massa.
+              <p className=" text-white text-center font-poppins lg:text-[24px] font-normal lg:leading-[35px] capitalize md:px-20" data-aos="fade-up">
+                CDCS shall also offer a variety of pre-collection services like Credit Application Assistance Programme (CAAP), consumer credit profiles.
               </p>
             </div>
             <div className="mt-10 flex flex-col items-center justify-center gap-28 lg:gap-5 lg:grid-cols-3 md:grid  md:grid-cols-2 md:gap-10 xl:gap-8">
               <div
                 className="w-[270px] max-lg:xs:w-[320px] h-[242px] max-w-[382px] xl:w-[28.281vw] lg:w-[26.367vw] rounded-[16px] border-[3px] border-[#03A651] bg-white flex flex-col items-center justify-center relative
-                             xs:px-4"
+                             xs:px-4" data-aos="fade-up"
               >
                 <div className="w-[80px] h-[80px]  rounded-full bg-gradient-to-r from-[#03A651] to-[#0D502D] [background-position:299deg] flex items-center justify-center absolute top-[-50px]">
                   <svg
@@ -49,16 +47,16 @@ const Section2 = () => {
                   </svg>
                 </div>
 
-                <p class="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
+                <p className="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
                   Recovery employment schemes
                 </p>
-                <p class="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
+                  We Recover. You Prosper
                 </p>
               </div>
               <div
                 className="w-[270px] max-lg:xs:w-[320px] h-[242px] lg:w-[26.367vw] max-w-[382px] xl:w-[28.281vw] rounded-[16px] border-[3px]  bg-white flex flex-col items-center justify-center relative
-                             xs:px-4"
+                             xs:px-4" data-aos="fade-up"
               >
                 <div className="w-[80px] h-[80px]  rounded-full bg-[#03A651] [background-position:299deg] flex items-center justify-center absolute top-[-50px]">
                   <svg
@@ -103,16 +101,16 @@ const Section2 = () => {
                   </svg>
                 </div>
 
-                <p class="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
-                Intrusion Detection and Prevention
+                <p className="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
+                  Intrusion Detection and Prevention
                 </p>
-                <p class="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
+                  Debt Collection Expertise, Results You Can Count On
                 </p>
               </div>
               <div
                 className="w-[270px] max-lg:xs:w-[320px] h-[242px] lg:w-[26.367vw] max-w-[382px] xl:w-[28.281vw] rounded-[16px] border-[3px]  bg-white md:mt-10 lg:mt-0 flex flex-col items-center justify-center relative
-                             xs:px-4"
+                             xs:px-4" data-aos="fade-up"
               >
                 <div className="w-[80px] h-[80px]  rounded-full  bg-[#03A651] [background-position:299deg] flex items-center justify-center absolute top-[-50px]">
                   <svg
@@ -122,7 +120,7 @@ const Section2 = () => {
                     viewBox="0 0 48 48"
                     fill="none"
                   >
-                    <g clip-path="url(#clip0_2_106)">
+                    <g clipPath="url(#clip0_2_106)">
                       <path
                         d="M10.68 3.06934L5.787 14.5833L18.195 16.0773L16.695 13.4763L15.405 11.2443C18.8478 9.36622 22.8101 8.66491 26.6884 9.24722C30.5667 9.82954 34.1484 11.6636 36.8878 14.4699C39.6272 17.2763 41.3743 20.9012 41.8628 24.7924C42.3514 28.6836 41.5547 32.6279 39.594 36.0243C37.6141 39.458 34.5558 42.1418 30.8941 43.6591C27.2325 45.1764 23.1723 45.4422 19.344 44.4153C15.5146 43.3915 12.1306 41.1316 9.71755 37.9868C7.30454 34.8419 5.99768 30.9882 6 27.0243H3C3.003 31.6473 4.53012 36.1404 7.34488 39.8077C10.1596 43.475 14.105 46.112 18.57 47.3103C27.741 49.7673 37.44 45.7503 42.186 37.5243C44.4954 33.52 45.4198 28.8659 44.8162 24.283C44.2125 19.7001 42.1145 15.4441 38.847 12.1743C35.5799 8.90615 31.3242 6.80941 26.742 6.21034C22.3115 5.63519 17.813 6.48968 13.902 8.64934L10.683 3.06934H10.68ZM24 18.0243V27.0363H15V30.0363H27V18.0243H24Z"
                         fill="white"
@@ -136,11 +134,11 @@ const Section2 = () => {
                   </svg>
                 </div>
 
-                <p class="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
-                Incident Response and Recovery
+                <p className="text-[#03A651] text-center font-titillium text-[24px] xs:text-[28px] font-semibold leading-[32px] mt-10">
+                  Incident Response and Recovery
                 </p>
-                <p class="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="text-black text-center font-poppins text-[16px] font-normal leading-[30px] [font-feature-settings:'liga'_off,'clig'_off] mt-6">
+                  Unlock the Value of Your Unpaid Invoices with CDCS
                 </p>
               </div>
             </div>

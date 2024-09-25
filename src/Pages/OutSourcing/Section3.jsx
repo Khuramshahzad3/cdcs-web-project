@@ -8,7 +8,7 @@ import St5 from '../../assets/Images/St5.png'
 const Section3 = () => {
   return (
     <section>
-      <div className="bg-Artboardlarge   ">
+      <div className="bg-Artboardlarge  overflow-x-hidden ">
         <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-24 p-2  md:p-10 md:py-10">
           <div className=" ">
             {/* upper div */}
@@ -35,27 +35,27 @@ const Section3 = () => {
             <div className="p-2  flex flex-col md:flex-row md:gap-20 md:items-start items-center  justify-center  md:mb-20 xl:gap-28">
               {/* images */}
               <div className="grid grid-cols-2 md:grid-cols-1 max-lg:md:w-[279.5px] max-xl:lg:w-[347.672px] flex-col items-center justify-center   md:flex-col relative  max-md:gap-3  md:mt-16 lg:mt-20 gap-[51px] xl:mt-28 lg:ml-5 xl:gap-[60px] lg:gap-[50px] md:gap-10">
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]   md:w-[100%] md:h-[100%] ">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]   md:w-[100%] md:h-[100%] " data-aos="fade-right">
                   <img src={St1} alt="" className=' shadow-2xl rounded-3xl' />
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]   md:w-[100%]">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]   md:w-[100%]" data-aos="fade-right">
 
                   <img src={St2} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
 
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]" data-aos="fade-right">
 
                   <img src={St3} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]" data-aos="fade-right">
 
                   <img src={St4} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]" data-aos="fade-right">
 
                   <img src={St5} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]" data-aos="fade-right">
 
                   <img src={St3} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
                 </div>
@@ -63,17 +63,15 @@ const Section3 = () => {
               </div>
 
               <div className="mt-10 md:mt-0  flex flex-col items-center md:items-start gap-3  max-md:mb-10">
-                <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start">
+                <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start" data-aos="fade-left">
                   WELCOME TO OUR SITE!
                 </h1>
-                <p className="max-w-[497px] text-[#333] font-Poppins text-lg lg:text-[32px] text-center font-semibold leading-normal md:text-start">
+                <p className="max-w-[497px] text-[#333] font-Poppins text-lg lg:text-[32px] text-center font-semibold leading-normal md:text-start" data-aos="fade-left">
                   Our Outsourcing
                 </p>
                
                 <ul className="   text-[#210F03] font-Poppins lg:text-[18px]  lg:leading-[30px] xl:leading-[37px] font-light  md:text-start list-disc flex flex-col gap-10  max-md:ml-7 text-sm  sm:text-base  md:leading-[30px] md:gap-[5vw]  lg:gap-[4vw] xl:gap-[170px] md:mt-5  max-w-[647px] max-lg:md:w-[376.5px] max-xl:lg:w-[559.406px]">
-
-
-                  <li >
+                  <li  data-aos="fade-left">
                     <span className="font-semibold">Benefits to outsourcing receivables: </span>
                     <br />
                     <span className="text-sm">Here are some of the benefits to outsourcing accounts receivable:</span>
@@ -93,7 +91,7 @@ const Section3 = () => {
                     -   Decrease net bad debt.
                     <br />
                     -   Increase customer and employee satisfaction through professional and thorough management of customer accounts.</li>
-                  <li >
+                  <li  data-aos="fade-left">
                     <span className="font-semibold">  Outsourcing: </span>
                     <br />
                     -   Collection of commercial Receivables (A/R), Bad Debts,
@@ -105,19 +103,19 @@ const Section3 = () => {
                     -   Supply of Professional Manpower Services
                     <br />
                     -   Experience Business & Consumer Credit Reports</li>
-                  <li >
+                  <li  data-aos="fade-left">
                     <span className="font-semibold"> Business Profile </span>
                     <br />
                     Business Profile presents a current, objective picture of how a business handles its financial obligations and comprehensive public record and legal data, conveying not only the company's ability to pay but also its willingness to pay.</li>
-                  <li >
+                  <li  data-aos="fade-left">
                     <span className="font-semibold">Consumer Credit Profile Report </span>
                     <br />
                     Consumer Credit Profile Report gives you accurate, current and complete information to enhance your decision-making capabilities. Its easy-to-read format, designed with input from our customers, groups similar data elements together for faster analysis.</li>
-                  <li className='md:mt-10 xl:mt-0'>
+                  <li className='md:mt-10 xl:mt-0' data-aos="fade-left">
                     <span className="font-semibold">Other Reports - </span>
                     <br />
                     Social Search, Address Updates, Employment Insight, and Collection Reports are examples of a complete line of resources you need to qualify your customers and reduce the risk of bad debts.</li>
-                  <li className='md:mt-10 xl:mt-0'>
+                  <li className='md:mt-10 xl:mt-0' data-aos="fade-left">
                     <span className="font-semibold">   Pre-Collection Dunning Services: </span>
                     <br />
                  
