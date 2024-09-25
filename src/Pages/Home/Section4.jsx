@@ -5,7 +5,7 @@ import Hand from '../../assets/Images/Hand.png'
 const Section4 = () => {
  
   return (
-    <section className='bg-[#171717] overflow-x-hidden'>
+    <section className='bg-[#171717] overflow-x-hidden overflow-y-hidden'>
       <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-24 p-2  md:p-10 md:py-10">
         <div className="flex flex-col py-10 gap-5 lg:gap-16 lg:flex-row relative">
           {/* left */}

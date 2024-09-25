@@ -33,7 +33,7 @@ const Section3 = () => {
           <div className=" ">
             <div className="p-2 mt-44 md:mt-32 flex flex-col md:flex-row md:gap-20 md:items-start items-center  lg:gap-32 xl:gap-40">
               {/* images */}
-              <div className="flex flex-row md:flex-col relative  max-md:gap-3 md:mt-20 lg:mt-32 xl:mt-40" data-aos="fade-up">
+              <div className="flex flex-row md:flex-col relative  max-md:gap-3 md:mt-20 lg:mt-32 xl:mt-40" data-aos="fade-right">
                 <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%] md:h-[100%] "  >
                   <img src={Rectangleuper} alt="" className=' shadow-2xl' />
                 </div>
@@ -45,13 +45,13 @@ const Section3 = () => {
               </div>
 
               <div className="mt-10 md:mt-0 lg:mt-10 xl:mt-20 flex flex-col items-center md:items-start gap-3">
-                <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start" data-aos="fade-up">
+                <h1 className="text-[#03A651] font-poppins text-[20px] font-semibold leading-normal text-center md:text-start" data-aos="fade-left">
                   WELCOME TO OUR SITE!
                 </h1>
-                <p className="max-w-[497px] text-[#333] font-Poppins text-lg lg:text-[32px] text-center font-semibold leading-normal md:text-start" data-aos="fade-up">
+                <p className="max-w-[497px] text-[#333] font-Poppins text-lg lg:text-[32px] text-center font-semibold leading-normal md:text-start" data-aos="fade-left">
                   We Are The Best Corporate Debt Services
                 </p>
-                <p className="max-w-[665px] max-h-[444px]  text-[#210F03] font-Poppins lg:text-[18px] font-light lg:leading-[30px] xl:leading-[37px] text-center md:text-start" data-aos="fade-up">
+                <p className="max-w-[665px] max-h-[444px]  text-[#210F03] font-Poppins lg:text-[18px] font-light lg:leading-[30px] xl:leading-[37px] text-center md:text-start" data-aos="fade-left">
                   It also renders the services in Credit Application Assistance <span className="text-[#03A651] font-bold">(CAA),</span> Attorney and consultant, consultancy on Micro Credit & SME’s Lending and supply of professional manpower through outsourcing process. We are specialized in the collection of commercial accounts <span className="text-[#03A651] font-bold">receivable (A/R),</span> bad debts,<span className="text-[#03A651] font-bold">pre-collection</span> outsourcing services, as well as many other aspects of recovery and debt collection services. Our professional collectors are having rich and diversified experience. <span className="text-[#03A651] font-bold">CDCS's</span> Collectors boast a long and proven history in commercial debt collection and related third-party collection services. Our Debt Collection Service is generally based on <span className="text-[#03A651] font-bold">“No Recovery -- No Fee”,</span> commission basis on monies collected whether paid directly in the bank by customer or through our office, once the file is placed with us.
                 </p>
                 <div className="mt-60 xs:mt-20 sm:mt-2 flex flex-wrap xl:gap-16 gap-10 max-md:p-3 lg:text-lg lg:mt-14 xl:mt-2">

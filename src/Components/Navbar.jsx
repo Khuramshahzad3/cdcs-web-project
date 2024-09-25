@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -73,19 +73,20 @@ const Navbar = () => {
                 <Link
                   to="/"
                   className={`text-lg ${isActive("/")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3"
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
+                    : ""
                     } ${scrolled ? "text-black" : "text-white"}`}
                 >
                   Home
                 </Link>
               </li>
               <li>
+                {/* hover:bg-gradient-to-r hover:from-[#144F30] hover:to-[#03A651] hover:p-3 hover:rounded-[25px] */}
                 <Link
                   to="/mission"
-                  className={`text-lg ${isActive("/mission")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3"
-                      : ""
+                  className={`text-lg  ${isActive("/mission")
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
+                    : ""
                     } ${scrolled ? "text-black" : "text-white"}`}
                 >
                   Mission
@@ -95,8 +96,8 @@ const Navbar = () => {
                 <Link
                   to="/services"
                   className={`text-lg flex items-center gap-2 ${isActive("/services")
-                      ? "w-[87px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3"
-                      : ""
+                    ? "w-[87px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
+                    : ""
                     } ${scrolled ? "text-black" : "text-white"}`}
                 >
                   Services
@@ -106,8 +107,8 @@ const Navbar = () => {
                 <Link
                   to="/our-strategy"
                   className={`text-lg ${isActive("/our-strategy")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3"
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
+                    : ""
                     } ${scrolled ? "text-black" : "text-white"}`}
                 >
                   Our Strategy
@@ -117,8 +118,8 @@ const Navbar = () => {
                 <Link
                   to="/outsourcing"
                   className={`text-lg ${isActive("/outsourcing")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3"
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
+                    : ""
                     } ${scrolled ? "text-black" : "text-white"}`}
                 >
                   Outsourcing
@@ -128,29 +129,24 @@ const Navbar = () => {
                 <Link
                   to="/aboutus"
                   className={`text-lg ${isActive("/aboutus")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3"
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
+                    : ""
                     } ${scrolled ? "text-black" : "text-white"}`}
                 >
                   About
                 </Link>
               </li>
             </ul>
+            <div className={`text-2xl cursor-pointer ${showSearch ? "inset-0 bg-opacity-100 bg-black" : ""}`} onClick={() => setShowSearch(!showSearch)}>
+              <FontAwesomeIcon icon={showSearch ? faXmark : faSearch} />
+            </div>
+{/* <div 
+  className={`text-3xl cursor-pointer ${showSearch ? "inset- bg-opacity-100 bg-black text-white opacity-100" : "text-gray-500 opacity-60"}`} 
+  onClick={() => setShowSearch(!showSearch)}
+>
+  <FontAwesomeIcon icon={showSearch ? faXmark : faSearch} />
+</div> */}
 
-            <svg
-              onClick={() => setShowSearch(true)}
-              xmlns="http://www.w3.org/2000/svg"
-              width="27"
-              height="30"
-              viewBox="0 0 27 30"
-              fill="none"
-              className="cursor-pointer"
-            >
-              <path
-                d="M10.6342 0.537109C13.5707 0.537109 16.2289 1.80323 18.1533 3.85038C20.0777 5.89753 21.2679 8.72546 21.2679 11.8493C21.2679 14.8482 20.171 17.5738 18.3811 19.5982C18.4136 19.6238 18.4451 19.6521 18.4748 19.6835L26.1304 27.8161C26.4511 28.1553 26.4528 28.7074 26.1335 29.0487C25.8146 29.3901 25.2956 29.3915 24.975 29.0523L17.3194 20.9196C17.2708 20.8681 17.2296 20.8119 17.1955 20.7522C15.388 22.2616 13.1099 23.1618 10.6339 23.1618C7.69739 23.1618 5.03879 21.8957 3.11439 19.8485C1.19021 17.8014 0 14.9732 0 11.8493C0 8.72546 1.19021 5.89753 3.11461 3.85038C5.03901 1.80347 7.69761 0.537109 10.6342 0.537109ZM16.9644 5.11533C15.3444 3.39197 13.1064 2.32602 10.6342 2.32602C8.16198 2.32602 5.92374 3.39197 4.30371 5.11533C2.68369 6.83869 1.68165 9.21946 1.68165 11.8493C1.68165 14.4792 2.68369 16.8602 4.30371 18.5836C5.92352 20.3069 8.16176 21.3729 10.6342 21.3729C13.1064 21.3729 15.3444 20.3069 16.9644 18.5836C18.5844 16.8604 19.5865 14.4794 19.5865 11.8493C19.5865 9.21946 18.5844 6.83869 16.9644 5.11533Z"
-                fill={scrolled ? "black" : "white"}
-              />
-            </svg>
           </div>
         </div>
 
@@ -167,8 +163,8 @@ const Navbar = () => {
                 <Link
                   to="/"
                   className={`text-lg ${isActive("/")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3"
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3"
+                    : ""
                     }`}
                   onClick={() => topandclose()}
                 >
@@ -179,8 +175,8 @@ const Navbar = () => {
                 <Link
                   to="/mission"
                   className={`text-lg ${isActive("/mission")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3"
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3"
+                    : ""
                     }`}
                   onClick={() => topandclose()}
                 >
@@ -191,8 +187,8 @@ const Navbar = () => {
                 <Link
                   to="/services"
                   className={`text-lg flex items-center gap-2 ${isActive("/services")
-                      ? "w-[87px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3 "
-                      : ""
+                    ? "w-[87px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3 "
+                    : ""
                     }`}
                   onClick={() => topandclose()}
                 >
@@ -203,8 +199,8 @@ const Navbar = () => {
                 <Link
                   to="/our-strategy"
                   className={`text-lg ${isActive("/our-strategy")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
+                    : ""
                     }`}
                   onClick={() => topandclose()}
                 >
@@ -215,8 +211,8 @@ const Navbar = () => {
                 <Link
                   to="/outsourcing"
                   className={`text-lg ${isActive("/outsourcing")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
+                    : ""
                     }`}
                   onClick={() => topandclose()}
                 >
@@ -227,8 +223,8 @@ const Navbar = () => {
                 <Link
                   to="/aboutus"
                   className={`text-lg ${isActive("/aboutus")
-                      ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
-                      : ""
+                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
+                    : ""
                     }`}
                   onClick={() => topandclose()}
                 >
@@ -260,26 +256,20 @@ const Navbar = () => {
 
       {showSearch && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-10 flex items-center justify-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 "
           onClick={() => setShowSearch(false)}
         >
           <div
-            className="bg-white p-20 rounded-lg relative"
+            className=" relative"
             onClick={(e) => e.stopPropagation()}
           >
-            <button
-              onClick={() => setShowSearch(false)}
 
-              className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
-            >
-              <FontAwesomeIcon icon={faXmark} size="lg" />
-            </button>
             <input
               value={SearchQuery}
               onChange={handleChange}
               type="text"
               placeholder="Search..."
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#03A651]"
+              className="w-[70vw] p-3 lg:px-60 xl:px-80 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#03A651]"
             />
           </div>
         </div>

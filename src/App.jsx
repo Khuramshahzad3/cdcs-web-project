@@ -17,6 +17,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import SideBarNav from "./Components/SideBarNav";
+import FAQsPage from "./Pages/FAQS/FAQsPage";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/outsourcing" element={<OutsourcingPage />} />
         <Route path="/aboutus" element={<AboutPage />} />
         <Route path="/contactus" element={<ContactPage />} />
+        <Route path="/faqs" element={<FAQsPage />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

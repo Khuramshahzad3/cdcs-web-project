@@ -15,14 +15,14 @@ const Section2 = () => {
               </h1>
             </div>
             <div className="max-w-[849px]">
-              <p className=" text-white text-center font-poppins lg:text-[24px] font-normal lg:leading-[35px] capitalize md:px-20" data-aos="fade-up">
+              <p className=" text-white text-center font-poppins lg:text-[24px] font-normal lg:leading-[35px] capitalize md:px-20" data-aos="fade-left">
                 CDCS shall also offer a variety of pre-collection services like Credit Application Assistance Programme (CAAP), consumer credit profiles.
               </p>
             </div>
             <div className="mt-10 flex flex-col items-center justify-center gap-28 lg:gap-5 lg:grid-cols-3 md:grid  md:grid-cols-2 md:gap-10 xl:gap-8">
               <div
                 className="w-[270px] max-lg:xs:w-[320px] h-[242px] max-w-[382px] xl:w-[28.281vw] lg:w-[26.367vw] rounded-[16px] border-[3px] border-[#03A651] bg-white flex flex-col items-center justify-center relative
-                             xs:px-4" data-aos="fade-up"
+                             xs:px-4" data-aos="fade-left"
               >
                 <div className="w-[80px] h-[80px]  rounded-full bg-gradient-to-r from-[#03A651] to-[#0D502D] [background-position:299deg] flex items-center justify-center absolute top-[-50px]">
                   <svg
@@ -56,7 +56,7 @@ const Section2 = () => {
               </div>
               <div
                 className="w-[270px] max-lg:xs:w-[320px] h-[242px] lg:w-[26.367vw] max-w-[382px] xl:w-[28.281vw] rounded-[16px] border-[3px]  bg-white flex flex-col items-center justify-center relative
-                             xs:px-4" data-aos="fade-up"
+                             xs:px-4" data-aos="fade-right"
               >
                 <div className="w-[80px] h-[80px]  rounded-full bg-[#03A651] [background-position:299deg] flex items-center justify-center absolute top-[-50px]">
                   <svg
@@ -110,7 +110,7 @@ const Section2 = () => {
               </div>
               <div
                 className="w-[270px] max-lg:xs:w-[320px] h-[242px] lg:w-[26.367vw] max-w-[382px] xl:w-[28.281vw] rounded-[16px] border-[3px]  bg-white md:mt-10 lg:mt-0 flex flex-col items-center justify-center relative
-                             xs:px-4" data-aos="fade-up"
+                             xs:px-4" data-aos="fade-right"
               >
                 <div className="w-[80px] h-[80px]  rounded-full  bg-[#03A651] [background-position:299deg] flex items-center justify-center absolute top-[-50px]">
                   <svg
