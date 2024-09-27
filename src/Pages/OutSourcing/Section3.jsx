@@ -1,32 +1,18 @@
 import React from 'react'
 import Rectangle4 from '../../assets/Images/Rectangle4.png'
-import St1 from '../../assets/Images/St1.png'
-import St2 from '../../assets/Images/St2.png'
-import St3 from '../../assets/Images/St3.png'
-import St4 from '../../assets/Images/St4.png'
-import St5 from '../../assets/Images/St5.png'
+import St1 from '../../assets/Images/out1.png'
+import St2 from '../../assets/Images/out2.png'
+import St3 from '../../assets/Images/out3.png'
+import St4 from '../../assets/Images/out4.png'
+import St5 from '../../assets/Images/out5.png'
+import out6 from '../../assets/Images/out6.png'
 const Section3 = () => {
   return (
     <section>
       <div className="bg-Artboardlarge  overflow-x-hidden ">
         <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-24 p-2  md:p-10 md:py-10">
           <div className=" ">
-            {/* upper div */}
-
-            {/* <div className="p-2 flex flex-col items-center relative">
-              <h1 className=" text-[#210F03] xs:whitespace-nowrap text-xl font-Poppins xl:text-[70px] md:text-3xl font-semibold xs:text-2xl lg:leading-[81px] w-full self-center  text-center">
-
-                Welcome to <span className="text-[#03A651]">Our</span>  Outsourcing
-              </h1>
-              <img src={Rectangle4} alt="" className='md:mt-20 mt-5' />
-              <div className="max-w-[1110px] max-h-[240px] flex items-center justify-center flex-col  px-5 h-[180px]  rounded-[16px] bg-[#F9FDFF] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.12)] xs:top-[12rem] absolute top-40 sm:top-[18rem] md:top-[50.417vw] w-[83.333vw] lg:h-[240px] xl:top-[575.796px]">
-                <p className="max-w-[1095px] max-h-[149.14px]  text-[#210F03] text-center font-Poppins xl:text-[30px] lg:text-2xl font-light  xl:leading-[45px] text-sm xs:text-base">
-                  <span className="text-[#03A651] font-bold">Our Services</span>, We offer expert financial solutions, including receivables collection, bad debt recovery, and IT services. Trust us for effective management of non-performing loans and diverse loan types
-                </p>
-              </div>
-
-
-            </div> */}
+           
           </div>
         </div>
         {/* lower div */}
@@ -57,7 +43,7 @@ const Section3 = () => {
                 </div>
                 <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]" data-aos="fade-right">
 
-                  <img src={St3} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
+                  <img src={out6} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
                 </div>
               
               </div>

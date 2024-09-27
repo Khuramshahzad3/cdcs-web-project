@@ -31,7 +31,7 @@ const Footer = () => {
                 <button className="apps-icon text-white bg-transparent border border-white p-3 rounded-md text-xl transition duration-700 transform  ease-in-out hover:text-blue-500 hover:bg-white">
                 <FontAwesomeIcon icon={faFacebook} />
                 </button>
-                <button className="apps-icon text-white bg-transparent border hover:text-white hover:bg-black border-white p-3 rounded-md text-2xl transition duration-700 transform  ease-in-out ">
+                <button className="apps-icon text-white bg-transparent border hover:text-black hover:bg-white border-white p-3 rounded-md text-2xl transition duration-700 transform  ease-in-out ">
                   <FontAwesomeIcon icon={faX} />
                 </button>
                 <button className="apps-icon text-white bg-transparent border border-white p-3 rounded-md text-xl transition duration-700 transform  ease-in-out hover:text-red-500 hover:bg-white">

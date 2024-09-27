@@ -1,10 +1,7 @@
 import React from 'react'
 import Rectangle4 from '../../assets/Images/Rectangle4.png'
-import St1 from '../../assets/Images/St1.png'
-import St2 from '../../assets/Images/St2.png'
-import St3 from '../../assets/Images/St3.png'
-import St4 from '../../assets/Images/St4.png'
-import St5 from '../../assets/Images/St5.png'
+import St1 from '../../assets/Images/abt1.png'
+import St2 from '../../assets/Images/abt2.png'
 const Section3 = () => {
   return (
     <section>
@@ -44,10 +41,7 @@ const Section3 = () => {
                   <img src={St2} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
 
                 </div>
-                {/* <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]">
-
-                  <img src={St3} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
-                </div> */}
+                
                
             
                 

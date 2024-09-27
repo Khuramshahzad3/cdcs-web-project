@@ -17,24 +17,24 @@ const Section3 = () => {
           <div className=" ">
             <div className="p-2 flex flex-col md:flex-row md:gap-20 md:items-start items-center    md:mb-20 xl:gap-28">
               {/* images */}
-              <div className="flex flex-col items-center justify-center   md:flex-col relative  max-md:gap-3 md:top-10   gap-[51px] lg:ml-5 xl:gap-[60px] lg:gap-[50px] md:gap-7">
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%] md:h-[100%] " data-aos="fade-right" >
+              <div className="grid place-content-center grid-cols-2 md:grid-cols-1  md:flex-col relative  max-md:gap-3 md:top-10   gap-[51px] lg:ml-5 xl:gap-[60px] lg:gap-[50px] md:gap-7">
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]   md:w-[100%] md:h-[100%] " data-aos="fade-right" >
                   <img src={St1} alt="" className=' shadow-2xl rounded-3xl' />
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%] md:w-[100%]" data-aos="fade-right" >
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]   md:w-[100%]" data-aos="fade-right" >
 
                   <img src={St2} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
 
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%]  md:w-[100%]" data-aos="fade-right" >
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]" data-aos="fade-right" >
 
                   <img src={St3} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%]  md:w-[100%]" data-aos="fade-right" >
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]" data-aos="fade-right" >
 
                   <img src={St4} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
                 </div>
-                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)] w-[50%] h-[50%]  md:w-[100%]" data-aos="fade-right" >
+                <div className="max-w-[439.052px] max-h-[367.6px]  rounded-[21px_21px_11px_11px] bg-[rgba(217,217,217,0.39)]    md:w-[100%]" data-aos="fade-right" >
 
                   <img src={St5} alt="" className='   md:left-[8.542vw] md:top-[16.628vw] 2xl:left-[124.03px] 2xl:top-[241.439px] shadow-2xl    md:w-[100%] rounded-3xl' />
                 </div>

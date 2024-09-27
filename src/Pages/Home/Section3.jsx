@@ -7,7 +7,7 @@ import Rectangleuper from '../../assets/Images/Rectangleuper.png'
 const Section3 = () => {
   return (
     <section>
-      <div className="bg-Artboard overflow-x-hidden  lg:h-[1904px]">
+      <div className="bg-Artboard overflow-x-hidden overflow-y-hidden  lg:h-[1904px]">
         <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-24 p-2  md:p-10 md:py-10">
           <div className=" ">
             {/* upper div */}

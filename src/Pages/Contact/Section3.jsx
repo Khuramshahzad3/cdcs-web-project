@@ -1,10 +1,9 @@
 import React from 'react'
 import Rectangle4 from '../../assets/Images/Rectangle4.png'
-import St1 from '../../assets/Images/St1.png'
-import St2 from '../../assets/Images/St2.png'
-import St3 from '../../assets/Images/St3.png'
-import St4 from '../../assets/Images/St4.png'
-import St5 from '../../assets/Images/St5.png'
+import St1 from '../../assets/Images/ct1.png'
+import St2 from '../../assets/Images/ct2.png'
+import St3 from '../../assets/Images/ct3.png'
+import St4 from '../../assets/Images/ct4.png'
 const Section3 = () => {
   return (
     <section>

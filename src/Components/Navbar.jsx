@@ -72,22 +72,25 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/"
-                  className={`text-lg ${isActive("/")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
-                    : ""
-                    } ${scrolled ? "text-black" : "text-white"}`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/")
+                      ? "underline  decoration-2 underline-offset-4 "
+                      : " transform hover:-translate-y-2 "
+                    } ${scrolled ? "text-black " : "text-white"}`}
+
+                    onClick={()=>window.scrollTo(0,0)}
                 >
                   Home
                 </Link>
               </li>
               <li>
-                {/* hover:bg-gradient-to-r hover:from-[#144F30] hover:to-[#03A651] hover:p-3 hover:rounded-[25px] */}
+
                 <Link
                   to="/mission"
-                  className={`text-lg  ${isActive("/mission")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
-                    : ""
-                    } ${scrolled ? "text-black" : "text-white"}`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/mission")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
+                  onClick={()=>window.scrollTo(0,0)}
                 >
                   Mission
                 </Link>
@@ -95,10 +98,11 @@ const Navbar = () => {
               <li className="">
                 <Link
                   to="/services"
-                  className={`text-lg flex items-center gap-2 ${isActive("/services")
-                    ? "w-[87px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
-                    : ""
-                    } ${scrolled ? "text-black" : "text-white"}`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/services")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
+                  onClick={()=>window.scrollTo(0,0)}
                 >
                   Services
                 </Link>
@@ -106,10 +110,11 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/our-strategy"
-                  className={`text-lg ${isActive("/our-strategy")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
-                    : ""
-                    } ${scrolled ? "text-black" : "text-white"}`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/our-strategy")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
+                  onClick={()=>window.scrollTo(0,0)}
                 >
                   Our Strategy
                 </Link>
@@ -117,10 +122,11 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/outsourcing"
-                  className={`text-lg ${isActive("/outsourcing")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
-                    : ""
-                    } ${scrolled ? "text-black" : "text-white"}`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/outsourcing")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
+                  onClick={()=>window.scrollTo(0,0)}
                 >
                   Outsourcing
                 </Link>
@@ -128,24 +134,20 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/aboutus"
-                  className={`text-lg ${isActive("/aboutus")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 text-white"
-                    : ""
-                    } ${scrolled ? "text-black" : "text-white"}`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/aboutus")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
+                  onClick={()=>window.scrollTo(0,0)}
                 >
                   About
                 </Link>
               </li>
             </ul>
-            <div className={`text-2xl cursor-pointer ${showSearch ? "inset-0 bg-opacity-100 bg-black" : ""}`} onClick={() => setShowSearch(!showSearch)}>
+            <div className={`text-2xl relative inline-block transition-transform hover:-translate-y-2 cursor-pointer ${showSearch ? "!inset-0 !bg-opacity-100 " : ""}`} onClick={() => setShowSearch(!showSearch)}>
               <FontAwesomeIcon icon={showSearch ? faXmark : faSearch} />
             </div>
-{/* <div 
-  className={`text-3xl cursor-pointer ${showSearch ? "inset- bg-opacity-100 bg-black text-white opacity-100" : "text-gray-500 opacity-60"}`} 
-  onClick={() => setShowSearch(!showSearch)}
->
-  <FontAwesomeIcon icon={showSearch ? faXmark : faSearch} />
-</div> */}
+
 
           </div>
         </div>
@@ -162,10 +164,10 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/"
-                  className={`text-lg ${isActive("/")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3"
-                    : ""
-                    }`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
                   onClick={() => topandclose()}
                 >
                   Home
@@ -174,10 +176,10 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/mission"
-                  className={`text-lg ${isActive("/mission")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3"
-                    : ""
-                    }`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/mission")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
                   onClick={() => topandclose()}
                 >
                   Mission
@@ -186,10 +188,10 @@ const Navbar = () => {
               <li className="">
                 <Link
                   to="/services"
-                  className={`text-lg flex items-center gap-2 ${isActive("/services")
-                    ? "w-[87px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651]  p-3 "
-                    : ""
-                    }`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/services")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
                   onClick={() => topandclose()}
                 >
                   Services
@@ -198,10 +200,10 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/our-strategy"
-                  className={`text-lg ${isActive("/our-strategy")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
-                    : ""
-                    }`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/our-strategy")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
                   onClick={() => topandclose()}
                 >
                   Our Strategy
@@ -210,10 +212,10 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/outsourcing"
-                  className={`text-lg ${isActive("/outsourcing")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
-                    : ""
-                    }`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/outsourcing")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
                   onClick={() => topandclose()}
                 >
                   Outsourcing
@@ -222,10 +224,10 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/aboutus"
-                  className={`text-lg ${isActive("/aboutus")
-                    ? "w-[77px] h-[44px] rounded-[25px] bg-gradient-to-r from-[#144F30] to-[#03A651] p-3 "
-                    : ""
-                    }`}
+                  className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/aboutus")
+                    ? "underline  decoration-2 underline-offset-4 "
+                    : " transform hover:-translate-y-2 "
+                  } ${scrolled ? "text-black " : "text-white"}`}
                   onClick={() => topandclose()}
                 >
                   About
@@ -234,20 +236,9 @@ const Navbar = () => {
             </ul>
             <div className=" px-2 rounded-xl">
               {/* Search Icon in Mobile Navbar */}
-              <svg
-                onClick={() => setShowSearch(true)} // Open search input on click
-                xmlns="http://www.w3.org/2000/svg"
-                width="27"
-                height="30"
-                viewBox="0 0 27 30"
-                fill="none"
-                className="cursor-pointer"
-              >
-                <path
-                  d="M10.6342 0.537109C13.5707 0.537109 16.2289 1.80323 18.1533 3.85038C20.0777 5.89753 21.2679 8.72546 21.2679 11.8493C21.2679 14.8482 20.171 17.5738 18.3811 19.5982C18.4136 19.6238 18.4451 19.6521 18.4748 19.6835L26.1304 27.8161C26.4511 28.1553 26.4528 28.7074 26.1335 29.0487C25.8146 29.3901 25.2956 29.3915 24.975 29.0523L17.3194 20.9196C17.2708 20.8681 17.2296 20.8119 17.1955 20.7522C15.388 22.2616 13.1099 23.1618 10.6339 23.1618C7.69739 23.1618 5.03879 21.8957 3.11439 19.8485C1.19021 17.8014 0 14.9732 0 11.8493C0 8.72546 1.19021 5.89753 3.11461 3.85038C5.03901 1.80347 7.69761 0.537109 10.6342 0.537109ZM16.9644 5.11533C15.3444 3.39197 13.1064 2.32602 10.6342 2.32602C8.16198 2.32602 5.92374 3.39197 4.30371 5.11533C2.68369 6.83869 1.68165 9.21946 1.68165 11.8493C1.68165 14.4792 2.68369 16.8602 4.30371 18.5836C5.92352 20.3069 8.16176 21.3729 10.6342 21.3729C13.1064 21.3729 15.3444 20.3069 16.9644 18.5836C18.5844 16.8604 19.5865 14.4794 19.5865 11.8493C19.5865 9.21946 18.5844 6.83869 16.9644 5.11533Z"
-                  fill="white"
-                />
-              </svg>
+              <div className={`text-2xl relative inline-block transition-transform hover:-translate-y-2 cursor-pointer ${showSearch ? "inset-0 bg-opacity-100 " : ""}`} onClick={() => setShowSearch(!showSearch)}>
+              <FontAwesomeIcon icon={showSearch ? faXmark : faSearch} />
+            </div>
             </div>
           </div>
         </div>
@@ -269,7 +260,7 @@ const Navbar = () => {
               onChange={handleChange}
               type="text"
               placeholder="Search..."
-              className="w-[70vw] p-3 lg:px-60 xl:px-80 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#03A651]"
+              className="w-[70vw] p-3 lg:pl-20 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6effb4]"
             />
           </div>
         </div>

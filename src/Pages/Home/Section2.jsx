@@ -5,9 +5,9 @@ const Section2 = () => {
 
   return (
     <section>
-      <div className="bg-black h-[1300px] md:h-[880px] lg:h-[780px] overflow-x-hidden">
-        <div className="max-w-[1440px] mx-auto  lg:px-10  xl:px-12 ">
-          <div className="flex flex-col items-center gap-10 lg:gap-20 md:gap-16 absolute px-5 top-[49rem] xs:top-[55rem] md:top-[36rem] lg:top-[46rem] ">
+      <div className="bg-black h-[1300px] md:h-[880px] lg:h-[780px] overflow-x-hidden overflow-y-hidden">
+        <div className="max-w-[1440px] mx-auto overflow-x-hidden overflow-y-hidden lg:px-10  xl:px-12 ">
+          <div className="flex flex-col items-center gap-10 lg:gap-20 md:gap-16 absolute px-5 top-[49rem] xs:top-[55rem] md:top-[36rem] lg:top-[46rem] overflow-x-hidden overflow-y-hidden">
             <div className="max-w-[923px]">
               <h1 className="text-white text-center text-xl font-poppins lg:text-[75px] font-semibold lg:leading-[91px] md:text-3xl  capitalize md:px-40 lg:px-0" data-aos="fade-up">
                 Protecting Your Digital Assets
