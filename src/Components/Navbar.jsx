@@ -167,7 +167,7 @@ const Navbar = () => {
                   className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/")
                     ? "underline  decoration-2 underline-offset-4 "
                     : " transform hover:-translate-y-2 "
-                  } ${scrolled ? "text-black " : "text-white"}`}
+                  } `}
                   onClick={() => topandclose()}
                 >
                   Home
@@ -179,7 +179,7 @@ const Navbar = () => {
                   className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/mission")
                     ? "underline  decoration-2 underline-offset-4 "
                     : " transform hover:-translate-y-2 "
-                  } ${scrolled ? "text-black " : "text-white"}`}
+                  } `}
                   onClick={() => topandclose()}
                 >
                   Mission
@@ -191,7 +191,7 @@ const Navbar = () => {
                   className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/services")
                     ? "underline  decoration-2 underline-offset-4 "
                     : " transform hover:-translate-y-2 "
-                  } ${scrolled ? "text-black " : "text-white"}`}
+                  } `}
                   onClick={() => topandclose()}
                 >
                   Services
@@ -203,7 +203,7 @@ const Navbar = () => {
                   className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/our-strategy")
                     ? "underline  decoration-2 underline-offset-4 "
                     : " transform hover:-translate-y-2 "
-                  } ${scrolled ? "text-black " : "text-white"}`}
+                  } `}
                   onClick={() => topandclose()}
                 >
                   Our Strategy
@@ -215,7 +215,7 @@ const Navbar = () => {
                   className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/outsourcing")
                     ? "underline  decoration-2 underline-offset-4 "
                     : " transform hover:-translate-y-2 "
-                  } ${scrolled ? "text-black " : "text-white"}`}
+                  } `}
                   onClick={() => topandclose()}
                 >
                   Outsourcing
@@ -227,7 +227,7 @@ const Navbar = () => {
                   className={`inline-block relative text-lg  transition-transform duration-300 ${isActive("/aboutus")
                     ? "underline  decoration-2 underline-offset-4 "
                     : " transform hover:-translate-y-2 "
-                  } ${scrolled ? "text-black " : "text-white"}`}
+                  } `}
                   onClick={() => topandclose()}
                 >
                   About
